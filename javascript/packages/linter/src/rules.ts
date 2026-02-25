@@ -58,7 +58,7 @@ import { HTMLNoSpaceInTagRule } from "./rules/html-no-space-in-tag.js"
 import { HTMLNoTitleAttributeRule } from "./rules/html-no-title-attribute.js"
 import { HTMLNoUnderscoresInAttributeNamesRule } from "./rules/html-no-underscores-in-attribute-names.js"
 import { HTMLTagNameLowercaseRule } from "./rules/html-tag-name-lowercase.js"
-import { HTMLTurboPermanentRequireIdRule } from "./rules/html-turbo-permanent-require-id.js"
+import { TurboPermanentRequireIdRule } from "./rules/turbo-permanent-require-id.js"
 
 import { SVGTagNameCapitalizationRule } from "./rules/svg-tag-name-capitalization.js"
 
@@ -123,7 +123,7 @@ export const rules: RuleClass[] = [
   HTMLNoTitleAttributeRule,
   HTMLNoUnderscoresInAttributeNamesRule,
   HTMLTagNameLowercaseRule,
-  HTMLTurboPermanentRequireIdRule,
+  TurboPermanentRequireIdRule,
 
   SVGTagNameCapitalizationRule,
 
